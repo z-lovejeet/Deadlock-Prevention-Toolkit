@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deadlock Prevention Toolkit</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Deadlock Prevention & Recovery Toolkit</h1>
+    <p>Simulating Banker's Algorithm and Resource Allocation Graph</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>System Configuration</h2>
+      <div class="input-row">
+        <input type="number" id="processes" placeholder="Processes (e.g., 5)">
+        <input type="number" id="resources" placeholder="Resources (e.g., 3)">
+        <button onclick="generateMatrix()">Generate Matrices</button>
+      </div>
+
+      <div id="matrix-area"></div>
+      <button id="runBtn" onclick="runDetection()">▶ Run Detection</button>
+
+      <div id="outputBox">
+        <h3>Output:</h3>
+        <pre id="output"></pre>
+      </div>
+
+      <canvas id="ragCanvas"></canvas>
+    </section>
+  </main>
+
+  <footer>
+  <p>
+    Developed by 
+    <strong>Lovejeet</strong>, 
+    <strong>Asim</strong> & 
+    <strong>Aditya</strong> 
+    | B.Tech CSE (AI/ML)
+  </p>
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
