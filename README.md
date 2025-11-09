@@ -1,12 +1,12 @@
-# 💻 Deadlock Prevention and Recovery Toolkit
+# Deadlock Prevention and Recovery Toolkit
 
-### 🧠 Overview
+### Overview
 This project is a simple **Operating Systems (OS)** simulation tool that demonstrates **deadlock detection, prevention, and recovery** using the **Banker’s Algorithm**.  
 It provides a **user-friendly web interface** where users can input process and resource data, run simulations, and visualize whether the system is in a safe or unsafe state.
 
 ---
 
-### 🎯 Objectives
+###  Objectives
 - Detect and prevent deadlocks in real time.
 - Demonstrate safe sequence generation using Banker’s Algorithm.
 - Provide clear and interactive output for better understanding.
@@ -14,7 +14,7 @@ It provides a **user-friendly web interface** where users can input process and 
 
 ---
 
-### ⚙️ Tech Stack
+### Tech Stack
 | Layer | Technology |
 |-------|-------------|
 | **Frontend** | HTML, CSS, JavaScript |
