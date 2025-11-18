@@ -34,7 +34,7 @@ p {
   backdrop-filter: blur(10px);
   border-radius: 15px;
   padding: 20px;
-  width: 80%;
+  width: 100%;
   max-width: 900px;
   margin-top: 20px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
