@@ -1,0 +1,29 @@
+{
+  "name": "deadlock-toolkit",
+  "version": "1.0.0",
+  "description": "This project is a simple **Operating Systems (OS)** simulation tool that demonstrates **deadlock detection, prevention, and recovery** using the **Banker’s Algorithm**.  \r It provides a **user-friendly web interface** where users can input process and resource data, run simulations, and visualize whether the system is in a safe or unsafe state.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/z-lovejeet/Deadlock-Prevention-Toolkit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/z-lovejeet/Deadlock-Prevention-Toolkit/issues"
+  },
+  "homepage": "https://github.com/z-lovejeet/Deadlock-Prevention-Toolkit#readme",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "child_process": "^1.0.2",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
+}
