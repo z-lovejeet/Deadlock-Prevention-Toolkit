@@ -10,17 +10,14 @@ int main() {
     vector<vector<int>> maxm(n, vector<int>(m));
     vector<int> avail(m);
 
-    // Read Allocation Matrix
     for (int i = 0; i < n; i++)
         for (int j = 0; j < m; j++)
             cin >> alloc[i][j];
 
-    // Read Max Matrix
     for (int i = 0; i < n; i++)
         for (int j = 0; j < m; j++)
             cin >> maxm[i][j];
 
-    // Read Available
     for (int i = 0; i < m; i++)
         cin >> avail[i];
 
