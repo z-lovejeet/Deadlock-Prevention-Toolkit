@@ -18,7 +18,7 @@ app.post("/detect", (req, res) => {
   max.forEach(row => (input += row.join(" ") + "\n"));
   input += avail.join(" ") + "\n";
 
-  const exePath = path.join(__dirname, "algorithms", "banker.exe");
+  const exePath = path.join(__dirname, "algorithms", "banker");
   const process = spawn(exePath);
 
   let output = "";
