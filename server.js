@@ -34,6 +34,9 @@ app.post("/detect", (req, res) => {
   });
 
   process.on("close", () => {
+    if (output.includes("System is not in a Safe State.")) {
+      output += "\n\nSuggestion:\n1. Release resources from low-priority processes.\n2. Increase available resources.\n3. Terminate a process.";
+    }
     res.json({ result: output.trim() });
   });
 });
